@@ -1,0 +1,25 @@
+========================================2016-09
+1、业务逻辑 NO_001
+DmOnlineParam 在线参数
+DmTransferManager 各Uri的含义
+中心页包含什么内容
+DmGlobalConstants.DM_SERVER_PRODUCT_ID产品ID指什么
+PushMessage类型有什么
+推送消息通知栏大图模式bigIcon显示什么/图标的宽高/链接Wifi通知栏数据打点、消失触发的intent ****
+新加的字段没值得话取老值****
+Notification 小米、华为bigIcon较小紧挨左边；锤子64dp居中；魅族距离较靠右；
+
+小米、锤子不允许大图模式/使用原生的布局，默认使用logo作为大图标，不能修改
+
+DmPhotoUtil获得手机设备的各种信息（例如：Imei、Mac、语言环境、网络状态）
+DmUtilVersion获取快牙App各种信息（例如：版本号、版本名、渠道）
+ResourceGameFragment发现中游戏界面
+DmZip压缩的工具类
+DmCompatibleFile、DmPathManager构成文件管理
+PackageUtils本地应用工具类
+DmPackageUtils处理包信息
+DmSecureUtil处理Base64、MD5
+DmApkUtil处理Apk工具类
+
+DmTransferProvider中的表：transfer存储的内容upload、download、cloud_upload；traffic、detail记录交易；
+msg记录push消息；batlog批处理日志；还有一些trigger/表cloud_uploader暂时没用
